@@ -1,5 +1,6 @@
 # FFMpeg 関連のスクリプト
 - [動画情報を出力](./scripts/Show-VideoInfo.ps1)
+- [動画を比較して SSIM値 を出力](./scripts/Measure-SSIM.ps1)
 - [動画からアニメーション GIF 作成](./scripts/ConvertTo-Gif.ps1)
 - [動画からアニメーション APNG 作成](./scripts/ConvertTo-Apng.ps1)
 - [動画からアニメーション WEBP 作成](./scripts/ConvertTo-Webp.ps1)
