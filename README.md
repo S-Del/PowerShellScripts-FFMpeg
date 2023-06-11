@@ -8,5 +8,6 @@
 - [動画からビデオストリームのみ取り出し](./scripts/Export-VideoStream.ps1)
 - [動画から音声ストリームのみ取り出し](./scripts/Export-AudioStream.ps1)
 - [連番画像から AVI 動画作成](./scripts/ConvertTo-AviFromSequencialImage.ps1)
+- [フレーム間予測を利用したフレームレート変換](./scripts/Convert-FpsUseMotionInterpolation.ps1)
 - [動画をリサイズして AVI 動画作成](./scripts/Resize-Avi.ps1)
 - [画像フォーマット変換](./scripts/Convert-ImageFormat.ps1)
