@@ -34,9 +34,9 @@ Param(
 ffmpeg -hide_banner `
        -i $SrcPath `
        -vf "zscale=w=${Width}:h=${Height}:f=${AlgorithmNumber}" `
-       -c:v "utvideo" `
+       -vcodec "utvideo" `
        -pix_fmt "yuv444p" `
-       -c:a "copy" `
+       -acodec "copy" `
        "${OutputFileName}.avi"
 
 if ($LASTEXITCODE -ne 0) {

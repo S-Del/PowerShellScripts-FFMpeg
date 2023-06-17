@@ -29,7 +29,7 @@ Param(
 
 ffmpeg -hide_banner `
        -i $SrcPath `
-       -c:v "libwebp" `
+       -vcodec "libwebp" `
        -lossless $Lossless `
        -quality $Quality `
        -preset $Preset `
