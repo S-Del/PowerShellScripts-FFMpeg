@@ -18,13 +18,13 @@ Param(
 
 function Get-OutFileExt() {
     return $(switch ($Format) {
-        "default" { "default.txt"; break }
-        "compact" { "compact.txt"; break }
-        "flat" { "flat.txt"; break }
-        "csv" { "csv"; break }
-        "ini" { "ini"; break }
-        "json" { "json"; break }
-        "xml" { "xml"; break }
+        "default" { "default.txt" }
+        "compact" { "compact.txt" }
+        "flat" { "flat.txt" }
+        "csv" { "csv" }
+        "ini" { "ini" }
+        "json" { "json" }
+        "xml" { "xml" }
         default { throw "Format の指定が不正" }
     })
 }
